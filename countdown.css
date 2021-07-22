@@ -1,0 +1,50 @@
+body, html {
+    font-family: helvetica;
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image{
+    background-image: url(https://images4.alphacoders.com/153/thumb-1920-153316.jpg);
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.65); /* Black w/opacity/see-through */
+    color: white;
+    box-shadow: 0 50px 50px rgba(0,0,0, 0.5),
+                0 0 0 100px rgba(0,0,0, 0.1);
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.time-row{
+    display: flex;
+    margin-top: 20px;
+}
+
+.time-row div{
+    position: relative;
+    margin: 10px;
+    width: 100px;
+    min-height: 50px;
+    line-height: 100px;
+    text-align: center;
+    background: silver;
+    color: white;
+}

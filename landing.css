@@ -1,0 +1,59 @@
+body, html {
+    font-family: helvetica;
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("https://i.pinimg.com/originals/7b/50/20/7b5020dd70445976171bf410b149ef39.jpg");
+
+  height: 740px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image2 {
+  background-image: url("https://i.pinimg.com/originals/7b/50/20/7b5020dd70445976171bf410b149ef39.jpg");
+
+  height: 50%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tittle{
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 30% 10% 30% 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+  margin: 0;
+  height: 50%; 
+  background-color: black;
+}
+
+.row{
+  margin: 0 10% 0 10%;
+  display: flex;
+}
+
+.card {
+  position: relative;
+  background-color: rgba(255,255,255,0.65);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  justify-content: center;
+}

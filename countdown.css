@@ -36,9 +36,11 @@ body, html {
 .time-row{
     display: flex;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .time-row div{
+    /* flex: 50%; */
     position: relative;
     margin: 10px;
     width: 100px;
@@ -48,3 +50,16 @@ body, html {
     background: silver;
     color: white;
 }
+
+@media (max-width: 800px) {
+    .time-row div{
+    flex: 20%;
+    position: relative;
+    margin: 10px;
+    width: 100px;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: silver;
+    color: white;
+}}
